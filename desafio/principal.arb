@@ -1,0 +1,30 @@
+# principal.arb
+
+require "./classes/conta_bancaria"
+require "./classes/conta_com_taxa"
+
+conta_edu = ContaComTaxa.new("Edu", 1000)
+conta_dois = ContaBancaria.new("Dois", 100)
+
+conta_edu.transferir(conta_dois, 50)
+
+p "Conta Edu"
+p conta_edu.saldo
+
+p "Conta Dois"
+p conta_dois.saldo
+
+conta_edu.transferir(conta_dois, 1060)
+
+begin
+    
+rescue StandardError => exception
+    p "Não foi possível transferir: #{meu_erro.message}"
+end
+
+
+p "Conta Edu"
+p conta_edu.saldo
+
+p "Conta Dois"
+p conta_dois.saldo

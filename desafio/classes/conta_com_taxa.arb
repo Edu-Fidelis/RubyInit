@@ -1,0 +1,12 @@
+# conta_com_taxa.arb
+
+class ContaComTaxa < ContaBancaria
+    def self.taxa
+        2
+    end
+    
+    def transferir(outra_conta, valor)
+        super #(outra_conta, valor)
+        debitar(ContaComTaxa.taxa) #(2) # numero magico
+    end
+end

@@ -1,0 +1,41 @@
+valor = 12
+
+if valor > 7
+    puts "Eu sou maior que 7"
+else
+    puts "Eu nâo sou maior que 7"
+end
+
+
+if valor == 7
+    puts "Eu sou o 7"
+elsif valor > 7
+    puts "Eu sou maior que 7"
+else
+    puts "Eu nâo sou maior que 7"
+end
+
+valor = 7
+puts "Eu sou o 7" if valor == 7
+
+unless valor == 7
+    puts "Eu não sou o 7"
+end
+
+valor > 7 ? puts "Eu sou maior que 7" : puts "Eu nâo sou maior que 7"
+
+linguagem == "ruby"
+case linguagem
+when "ruby"
+    puts "Bem-vindo ao curso de ruby"
+when "java"
+    puts "Curso não disponível"
+else
+    puts "Eu não conheço essa linguagem"
+end
+
+# valor = gets.chomp.to_i
+
+# if valor > 7
+#     puts "Sou maior que 7"
+# end

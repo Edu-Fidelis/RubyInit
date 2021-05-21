@@ -1,0 +1,6 @@
+:"JC"
+p :JC.object_id
+p :JC.object_id
+p :JC.object_id
+
+1.(send:+, 2)

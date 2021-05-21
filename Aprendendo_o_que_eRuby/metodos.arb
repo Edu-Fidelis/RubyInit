@@ -1,0 +1,12 @@
+# def meu_metodo (parametro1, parametro2)
+#     puts "O parametro 1 é #{parametro1} e o parametro 2 é #{parametro2}"
+# end
+
+def soma(a, b)
+    puts "Estou somando #{a} e #{b}"
+   return a + b 
+end
+
+puts "Vou executar a soma"
+
+puts soma(10, 5)parametro

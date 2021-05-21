@@ -1,0 +1,18 @@
+# DEUS é Bom, e a Sua Misericórdia dura para sempre
+puts "DEUS É Fiel"
+
+nome = "JESUS"
+
+mensagem = "#{ nome } É O Rei"
+
+mensagem2 = <<~JESUS
+    JESUS É O
+    Único
+    Espetacular
+    Suficiente
+    Salvador
+    JESUS
+
+puts mensagem
+puts mensagem2
+

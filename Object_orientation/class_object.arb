@@ -1,0 +1,7 @@
+class NomeDaClasse
+end
+
+objeto = NomeDaClasse.new
+
+p objeto.id
+

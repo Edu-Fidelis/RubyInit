@@ -1,0 +1,17 @@
+lista = ["JESUS", 7, 12, "Edu"]
+
+puts lista
+
+lista << "CRISTO"
+
+puts lista
+
+puts lista.length
+
+puts lista.first
+puts lista.last
+
+lista1 = ["JESUS"]
+lista2 = ["CRISTO"]
+
+p lista1 + lista2

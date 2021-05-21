@@ -1,0 +1,62 @@
+# class NomeDaClasse
+#     def imprimir_ola(nome)
+#         puts "Olá #{nome}"
+#     end
+# end
+
+# objeto = NomeDaClasse.new
+# objeto.imprimir_ola("JESUS")
+
+# class NomeDaClasse
+#     def imprimir_ola(nome)
+#         @nome = nome
+#         puts "Olá #{@nome}"
+#     end
+
+#     def nome
+#         @nome
+#     end
+# end
+
+# objeto = NomeDaClasse.new
+# objeto.imprimir_ola("JESUS")
+# objeto.nome
+
+# class NomeDaClasse
+#     def initialize(nome)
+#         @nome = nome
+#     end
+    
+#     def imprimir_ola()
+#         puts "Olá #{@nome}"
+#     end
+
+#     def nome
+#         @nome
+#     end
+
+#     def nome=(novo_nome)
+#         @nome = novo_nome
+#     end
+# end
+
+# objeto = NomeDaClasse.new("JESUS")
+# objeto.imprimir_ola
+# objeto.nome
+
+class NomeDaClasse
+    attr_accessor :nome #getter e setter
+    # attr_reader :nome #getter
+    # attr_writter :nome #setter
+    def initialize(nome)
+        @nome = nome
+    end
+    
+    def imprimir_ola()
+        puts "Olá #{@nome}"
+    end
+end
+
+objeto = NomeDaClasse.new("JESUS")
+objeto.imprimir_ola
+objeto.nome

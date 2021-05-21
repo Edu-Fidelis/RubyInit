@@ -1,0 +1,13 @@
+variavel = nil
+
+variavel = "ALgum valor" if variavel.nil?
+
+variavel = nil
+
+variavel = "ALgum valor" if !variavel
+
+variavel = nil
+
+variavel = "ALgum valor" unless variavel
+
+variavel ||= "Valor"

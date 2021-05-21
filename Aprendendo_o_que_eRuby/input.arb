@@ -1,0 +1,10 @@
+puts "Quem é o Único Salvador?"
+nome = gets
+
+puts nome
+
+nome = nome.chomp
+
+nome = gets.chomp
+
+puts "ELE é #{nome}"

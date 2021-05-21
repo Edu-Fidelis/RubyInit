@@ -1,0 +1,19 @@
+# class Pessoa
+#     def self.gerar
+#         puts "Estou gerando uma nova pessoa"
+#     end
+# end
+
+# Variável de classe ~= Variável global
+class Pessoa
+    @@variavel_da_classe_pessoa = 100 
+
+    def self.valor_variavel
+        @@variavel_da_classe_pessoa
+    end
+
+    def self.incrementar.valor_variavel
+        @@variavel_da_classe_pessoa += 1
+    end
+end
+

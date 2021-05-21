@@ -1,0 +1,9 @@
+lista = [0, 1, 2, 3, 4, 5]
+
+for meu_valor in lista
+    puts "Meu valor é #{lista}"
+end
+
+lista.each do |meu_valor|
+    puts "Meu valor com o each é #{lista}"
+end

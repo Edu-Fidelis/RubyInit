@@ -1,0 +1,9 @@
+j = {}
+j[:nome] = "JESUS"
+j[:num] = 7
+
+p j.values
+p j.keys
+p j.class
+
+c { nome => "JESUS", atributo => "É Bom" }
